@@ -143,7 +143,6 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 							.then( function( flight )
 							{
 								$scope.flight = flight;				// Response Handler #1
-
 								return flight;
 							});
 			},
