@@ -4,12 +4,10 @@ Promises are a great solution to address complexities of asynchronous requests a
 
 Promises allow developers to do two (2) very important things. We can:
 
-1)  Transform the responses before anyone is notified of the response.
-2)  Use the response to invoke more async requests (which could generate more promises).
+*  Transform the responses before anyone is notified of the response.
+*  Use the response to invoke more async requests (which could generate more promises).
 
-But even more important that (1) and (2) above, Promises enables `easy` chaining of custom activity or computations. Promise chains are **amazing** and means that we can easily build sequences of asynchronous requests or asynchronous activity.
-
-Let's explore the hidden power in chain promises... (and we will also discuss the hidden anti-patterns)
+But even more important that facts above, Promises support `easy` chaining of custom activity or computations. Promise chains are **amazing** and means that we can easily build sequences of asynchronous requests or asynchronous activity. Let's explore the hidden power in chain promises... (and we will also discuss the hidden anti-patterns)
 
 ---
 
@@ -113,10 +111,10 @@ I personally consider deep nesting to be an **anti-pattern**.
 
 Fortunately we can restructure the code for errors, clarity, and maintenance. Here we leverage the fact that a promise handler can return:
 
-1)  A value - that will be delivered to subsequent resolve handlers
-2)  A **promise** - that will create a branch queue of async activity
-3)  A exception - to reject sebsequent promise activity
-4)  A rejected promise - to propogate rejections to subsequent handlers
+*  A value - that will be delivered to subsequent resolve handlers
+*  A **promise** - that will create a branch queue of async activity
+*  A exception - to reject sebsequent promise activity
+*  A rejected promise - to propogate rejections to subsequent handlers
 
 Since promise handlers can return Promises, let's use that we a refactor approach:
 
