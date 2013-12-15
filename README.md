@@ -15,6 +15,11 @@ Let's explore the hidden power in chain promises... (and we will also discuss th
 ---
 
 Consider the Flight Service shown which loads information about the last flight viewed during a previous application session
+
+
+![Flight-Chain](https://f.cloud.github.com/assets/210413/1750918/99369b2c-65be-11e3-8a96-c7cf8119a306.jpg)
+
+
 Here we simulate a remote web service by returning a JSON data file... but the request is still asynchronous and the request generates a promise `to respond` when the information is loaded.
 
 ```javascript
@@ -236,4 +241,10 @@ The last version is very clean and terse.
 
 ### Summary
 
-Hopefully I have shown you some elegant and sophisticated techinques for chaining promises. You will have to decide whether you want to nest or flatten your promise chains. Just note that all of these approaches are simply chaining functions that either request more asynchronous activity or `handle` their async responses.
+Hopefully I have shown you some elegant and sophisticated techinques for chaining promises. The above chain even become more complicated:
+
+![TreeOfChains](https://f.cloud.github.com/assets/210413/1750919/afbfb5a4-65be-11e3-93d6-b5b61865bd0b.jpg)
+
+But even these complicated chains are easy to manage with the techniques that I have demonstrated.
+
+You will have to decide whether you want to nest or flatten your promise chains. Just note that all of these approaches are simply chaining functions that either request more asynchronous activity or `handle` their async responses.
