@@ -160,7 +160,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 							.getPlaneStatus( flight.id );			// Request #2
 							.then( function( plane )
 							{
-								$plane = plane;						// Response Handler #2
+								$scope.plane = plane;						// Response Handler #2
 								return plane;
 							});
 			},
