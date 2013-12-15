@@ -14,6 +14,8 @@ Let's explore the hidden power in chain promises... (and we will also discuss th
 
 ---
 
+### The FlightDashboard
+
 Consider the Flight Service shown which loads information about the last flight viewed during a previous application session
 
 
@@ -38,7 +40,7 @@ var FlightService = function( $http )
 	}
 ```
 
-Making this call from a `FlightDashboard`  (see [/src/Dashboard_1.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js)) to load the users:
+Making this call from a `FlightDashboard` to load the users:
 
 ```
 var FlightDashboard = function( $scope, user, flightService )
@@ -55,7 +57,12 @@ var FlightDashboard = function( $scope, user, flightService )
 	};
 ```
 
+*  [/src/Dashboard_1.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js)
+*  [/src/FlightServices.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/FlightServices.js)
+
 Okay this is nice... but nothing shockingly new is shown here. So let's add some `real-world` complexity.
+
+---
 
 ### Nesting Promise Chains
 
