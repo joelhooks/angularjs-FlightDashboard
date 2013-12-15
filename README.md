@@ -116,7 +116,7 @@ Fortunately we can restructure the code for errors, clarity, and maintenance. He
 *  A exception - to reject sebsequent promise activity
 *  A rejected promise - to propogate rejections to subsequent handlers
 
-Since promise handlers can return Promises, let's use that we a refactor approach:
+Since promise handlers can **return Promises**, let's use that we a refactor approach:
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService )
