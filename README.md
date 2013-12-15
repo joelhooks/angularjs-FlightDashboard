@@ -38,7 +38,7 @@ var FlightService = function( $http )
 	}
 ```
 
-Making this call from a `FlightDashboard`  (see [Dashboard_1.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js)) to load the users:
+Making this call from a `FlightDashboard`  (see [/src/Dashboard_1.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js)) to load the users:
 
 ```
 var FlightDashboard = function( $scope, user, flightService )
@@ -63,7 +63,7 @@ Now let's assume that once we have flight details, then we will also want to che
 
 The scenario here is a cascaded 3-call sequence:  `getFlightDetails()` -> `getPlaneDetails()` -> `getForecast()`
 
-More requests, more complexity... see [Dashboard_2.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_2.js)
+More requests, more complexity... see [/src/Dashboard_2.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_2.js)
 
 
 ```javascript
