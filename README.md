@@ -183,7 +183,11 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 
 This is better. Each segment of the *chain* is now a self-contained, named function. 
 
-But Can we go further?
+But can we go further?
+
+---
+
+### Finally 
 
 Once we realize that not all of our requests have to be sequential. In our scenario, the Plane  and Weather service calls could be requested in parallel (independent of each other). 
 
