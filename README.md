@@ -17,7 +17,7 @@ Let's explore the hidden power in chain promises... (and we will also discuss th
 Consider the Flight Service shown which loads information about the last flight viewed during a previous application session
 Here we simulate a remote web service by returning a JSON data file... but the request is still asynchronous and the request generates a promise `to respond` when the information is loaded.
 
-```
+```javascript
 var FlightService = function( $http )
 	{
 		return {
@@ -61,7 +61,7 @@ The scenario here is a cascaded 3-call sequence:  `getFlightDetails()` -> `getPl
 More requests, more complexity...
 
 
-```
+```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService )
     {
       // Level 1
@@ -97,7 +97,7 @@ The solution above used deep-nesting to create a sequential chain of three (3) a
 
 While this works, deep nesting can quickly become difficult to manage if each level has logic. I personally consider deep nesting to be an anti-pattern. Fortunately we can restructure the code for clarity and maintenance:
 
-```
+```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService )
 	{
 		flightService
@@ -130,7 +130,7 @@ So now we have flattened the chain. Let's try a cycle of refactoring:
 
 Notice that we can perceive the request and response as a self-contained process. Thinking that way, we can simplify this even further:
 
-```
+```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService, $log )
 	{
 		var loadFlight = function( user )
@@ -187,7 +187,7 @@ Once we realize that not all of our requests have to be sequential. In our scena
 
 So let's simplify even further AND add a exception handler... We will use the `$q.all()` and the `$q.spread()` methods to condense our code and centralize all `$scope` changes. 
 
-```
+```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService, $log, $q )
 	{
 		var loadFlight = function( user )
