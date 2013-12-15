@@ -197,7 +197,7 @@ This is better. Each segment of the *chain* is now a self-contained, named funct
 
 Once we realize that not all of our requests have to be sequential. In our scenario, the Plane  and Weather service calls could be requested in parallel (independent of each other). 
 
-So let's simplify even further AND add a exception handler... We will use the `$q.all()` and the `$q.spread()` methods to condense our code and centralize all `$scope` changes. 
+We will use the `$q.all()` and the `$q.spread()` methods to condense our code and centralize all `$scope` changes. 
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService, $log, $q )
@@ -244,7 +244,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 	};
 ```
 
-The last version is very clean and terse.
+The last version is very clean and terse. I simplified even further AND I also added a exception handler!
 
 ### Summary
 
