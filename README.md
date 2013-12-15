@@ -60,7 +60,7 @@ var FlightDashboard = function( $scope, user, flightService )
 ```
 
 >
-Okay this is nice... but nothing shockingly new is shown here. So let's add some `real-world` complexity.
+Okay this is nice... but nothing shockingly new is shown here. So let's add some `real-world` complexity. 
 
 ---
 
