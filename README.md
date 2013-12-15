@@ -145,9 +145,9 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 	};
 ```
 
-So now we have flattened the chain. Let's try a cycle of refactoring:
+So now we have flattened the chain!
 
-Notice that we can perceive the request and response as a self-contained process. Thinking that way, we can simplify this even further:
+What else can we do? Notice that if we consider the async *request/response* as a self-contained process, then we can simplify this even further:
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService, $log )
@@ -197,7 +197,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 	};
 ```
 
-This is better. Each segment of the *chain* is now a self-contained, named function. 
+This is better; each segment of the *chain* is now a self-contained, named function. 
 
 ---
 
