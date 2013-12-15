@@ -260,6 +260,14 @@ The last version is very clean and terse. I simplified even further AND I also a
 >
 The `$q.spread()` is a special [add-on](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/lib/%24QDecorator.js) that is currently not part of AngularJS. I used `$QDecorator` to decorate the $q service and provide this feature.
 
+### Live Demo
+
+Click here to open the [Live Demo](http://thomasburleson.github.io/angularjs-FlightDashboard/)
+
+Open Chrome Developer tools and you can breakpoint/step thru the logic and code base:
+
+![screen shot 2013-12-15 at 2 03 59 pm](https://f.cloud.github.com/assets/210413/1750999/562d582e-65c4-11e3-93ea-de9e5a1b0eed.jpg)
+
 ### Summary
 
 Hopefully I have shown you some elegant and sophisticated techinques for chaining promises. The above chain even become more complicated:
