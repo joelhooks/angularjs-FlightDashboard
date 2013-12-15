@@ -100,7 +100,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 
 The solution above used deep-nesting to create a sequential chain of three (3) asynchronous requests; requests to load the user's last flight, current flight, and weather forecast. 
 
-While this works, deep nesting can quickly become difficult to manage if each level has logic. I personally consider deep nesting to be an anti-pattern. Fortunately we can restructure the code for clarity and maintenance:
+While this works, deep nesting can quickly become difficult to manage if each level has non-trivial logic. I personally consider deep nesting to be an **anti-pattern**. Fortunately we can restructure the code for clarity and maintenance:
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService )
