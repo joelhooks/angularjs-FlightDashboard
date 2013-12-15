@@ -40,7 +40,9 @@ var FlightService = function( $http )
 	}
 ```
 
-Making this call from a `FlightDashboard` to load the users:
+see  [/src/FlightServices.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/FlightServices.js)
+
+Now let's use this service from a `FlightDashboard` to load the user's scheduled flight:
 
 ```
 var FlightDashboard = function( $scope, user, flightService )
@@ -57,8 +59,7 @@ var FlightDashboard = function( $scope, user, flightService )
 	};
 ```
 
-*  [/src/Dashboard_1.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js)
-*  [/src/FlightServices.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/FlightServices.js)
+see [/src/Dashboard_1.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js)
 
 Okay this is nice... but nothing shockingly new is shown here. So let's add some `real-world` complexity.
 
