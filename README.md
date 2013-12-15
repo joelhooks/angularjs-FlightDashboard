@@ -38,7 +38,7 @@ var FlightService = function( $http )
 	}
 ```
 
-Making this call from a FlightDashboard to load the users:
+Making this call from a [FlightDashboard](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_1.js) to load the users:
 
 ```
 var FlightDashboard = function( $scope, user, flightService )
