@@ -2,11 +2,10 @@
 
 Promises are a great solution to address complexities of asynchronous requests and responses. AngularJS provides Promises using services such as `$q` and `$http`; other services also use promises, but I will not discuss those here.
 
-Promises allow developers to do two (2) very important things:
+Promises allow developers to do two (2) very important things. We can:
 
-1) We can transform the responses before anyone is notified of the response.
-
-2) We can use the response to invoke more async requests (which could generate more promises).
+1)  Transform the responses before anyone is notified of the response.
+2)  Use the response to invoke more async requests (which could generate more promises).
 
 But even more important that (1) and (2) above, Promises enables `easy` chaining of custom activity or computations. Promise chains are **amazing** and means that we can easily build sequences of asynchronous requests or asynchronous activity.
 
@@ -102,13 +101,24 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
     };
 ```
 
-The solution above used deep-nesting to create a sequential chain of three (3) asynchronous requests; requests to load the user's last flight, current flight, and weather forecast. 
+The solution above used deep-nesting to create a sequential, cascading chain of three (3) asynchronous requests; requests to load the user's last flight, current flight, and weather forecast. 
 
 ---
 
 ### Flattened Promise Chains
 
-While this works, deep nesting can quickly become difficult to manage if each level has non-trivial logic. I personally consider deep nesting to be an **anti-pattern**. Fortunately we can restructure the code for clarity and maintenance:
+While this works, deep nesting can quickly become difficult to manage if each level has non-trivial logic. Promise chain nesting also requires care to manage errors with the chains (the above example does NOT handle errors).
+
+I personally consider deep nesting to be an **anti-pattern**. 
+
+Fortunately we can restructure the code for errors, clarity, and maintenance. Here we leverage the fact that a promise handler can return:
+
+1)  A value - that will be delivered to subsequent resolve handlers
+2)  A **promise** - that will create a branch queue of async activity
+3)  A exception - to reject sebsequent promise activity
+4)  A rejected promise - to propogate rejections to subsequent handlers
+
+Since promise handlers can return Promises, let's use that we a refactor approach:
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService )
