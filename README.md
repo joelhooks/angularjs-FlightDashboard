@@ -54,6 +54,7 @@ var FlightDashboard = function( $scope, user, flightService )
 	};
 ```
 
+>
 Okay this is nice... but nothing shockingly new is shown here. So let's add some `real-world` complexity.
 
 ---
@@ -145,6 +146,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 	};
 ```
 
+>
 So now we have flattened the chain!
 
 What else can we do? Notice that if we consider the async *request/response* as a self-contained process, then we can simplify this even further:
@@ -197,6 +199,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 	};
 ```
 
+>
 This is better; each segment of the *chain* is now a self-contained, named function. 
 
 ---
@@ -256,6 +259,7 @@ The last version is very clean and terse. I simplified even further AND I also a
 
 >
 The `$q.spread()` is a special [add-on](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/lib/%24QDecorator.js) that is currently not part of AngularJS. I used `$QDecorator` to decorate the $q service and provide this feature.
+
 ### Summary
 
 Hopefully I have shown you some elegant and sophisticated techinques for chaining promises. The above chain even become more complicated:
