@@ -203,7 +203,7 @@ This is better; each segment of the *chain* is now a self-contained, named funct
 
 ### Finally 
 
-Once we realize that not all of our requests have to be sequential. In our scenario, the Plane  and Weather service calls could be requested in parallel (independent of each other). 
+Finally, we should consider the dependencies of each segment of the *chain*. Once we realize that not all of our requests have to be sequential and wait for all previous segments to finish first. In our scenario, the Plane  and Weather service calls could be requested in parallel (independent of each other). 
 
 We will use the `$q.all()` and the `$q.spread()` methods to condense our code and centralize all `$scope` changes. 
 
@@ -252,8 +252,10 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 	};
 ```
 
-The last version is very clean and terse. I simplified even further AND I also added a exception handler!
+The last version is very clean and terse. I simplified even further AND I also added a **exception handler**!
 
+>
+The `$q.spread()` is a special [add-on](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/lib/%24QDecorator.js) that is currently not part of AngularJS. I used `$QDecorator` to decorate the $q service and provide this feature.
 ### Summary
 
 Hopefully I have shown you some elegant and sophisticated techinques for chaining promises. The above chain even become more complicated:
