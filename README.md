@@ -27,6 +27,7 @@ Consider the Flight Service shown which loads information about the last flight 
 Here we simulate a remote web service by returning a JSON data file... but the request is still asynchronous and the request generates **a promise to respond** when the information is loaded.
 
 ```javascript
+
 var FlightService = function( $http )
 	{
 		return {
@@ -45,6 +46,7 @@ var FlightService = function( $http )
 Now let's use this service from a `FlightDashboard` to load the user's scheduled flight:
 
 ```javascript
+
 var FlightDashboard = function( $scope, user, flightService )
 	{
 		flightService
@@ -70,10 +72,8 @@ Now let's assume that once we have flight details, then we will also want to che
 
 The scenario here is a cascaded 3-call sequence:  `getFlightDetails()` -> `getPlaneDetails()` -> `getForecast()`
 
-More requests, more complexity... see [/src/Dashboard_2.js](https://github.com/ThomasBurleson/angularjs-FlightDashboard/blob/master/src/Dashboard_2.js)
-
-
 ```javascript
+
 var FlightDashboard = function( $scope, user, flightService, weatherService )
     {
       // Level 1
