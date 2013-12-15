@@ -110,14 +110,12 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 			.then( function( flight )
 			{
 				$scope.flight = flight;										// Response Handler #1
-
 				return getPlaneDetails( flight.id );		// Request #2
 
 			})
 			.then( function( plane )
 			{
 				$scope.plane = plane;							// Response Handler #2
-
 				return weatherService.getForecast( $scope.flight.departure );			// Reqeust #3
 			})
 			.then( function( forecast )
