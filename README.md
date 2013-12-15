@@ -2,12 +2,12 @@
 
 Promises are a great solution to address complexities of asynchronous requests and responses. AngularJS provides Promises using services such as `$q` and `$http`; other services also use promises, but I will not discuss those here.
 
-Promises allow developers to do two (2) very important things. We can:
+Promises allow developers to easily attach *1x-only notifications of response* to any asynchronous request/action. Promises also enable two (2) other very important things. We can:
 
-*  Transform the responses before anyone is notified of the response.
+*  Transform the responses before subsequent handlers (in the chain) are notified of the response.
 *  Use the response to invoke more async requests (which could generate more promises).
 
-But even more important that facts above, Promises support `easy` chaining of custom activity or computations.
+But even more important than the features above, Promises support easy **chaining** of custom activity or computations.
 
 Managing sequences or chains of asynchronous activity can be a very difficult and complex effort. Promise chains are **amazing** and provide means to easily build sequences of asynchronous requests or asynchronous activity. Let's explore the hidden power in chain promises. 
 
