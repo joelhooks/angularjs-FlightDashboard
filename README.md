@@ -26,7 +26,7 @@ Consider the Flight Service shown which loads information about the last flight 
 
 Here we simulate a remote web service by returning a JSON data file... but the request is still asynchronous and the request generates a promise `to respond` when the information is loaded.
 
-```javascript
+```js
 var FlightService = function( $http )
 	{
 		return {
@@ -44,7 +44,7 @@ var FlightService = function( $http )
 
 Now let's use this service from a `FlightDashboard` to load the user's scheduled flight:
 
-```
+```js
 var FlightDashboard = function( $scope, user, flightService )
 	{
 		flightService
