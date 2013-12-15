@@ -191,8 +191,6 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 
 This is better. Each segment of the *chain* is now a self-contained, named function. 
 
-But can we go further?
-
 ---
 
 ### Finally 
