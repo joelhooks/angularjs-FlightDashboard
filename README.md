@@ -7,7 +7,9 @@ Promises allow developers to do two (2) very important things. We can:
 *  Transform the responses before anyone is notified of the response.
 *  Use the response to invoke more async requests (which could generate more promises).
 
-But even more important that facts above, Promises support `easy` chaining of custom activity or computations. Managing sequences or chains of asynchronous activity can be a very difficult and complex effort. Promise chains are **amazing** and provide means to easily build sequences of asynchronous requests or asynchronous activity. Let's explore the hidden power in chain promises. 
+But even more important that facts above, Promises support `easy` chaining of custom activity or computations.
+
+Managing sequences or chains of asynchronous activity can be a very difficult and complex effort. Promise chains are **amazing** and provide means to easily build sequences of asynchronous requests or asynchronous activity. Let's explore the hidden power in chain promises. 
 
 >
 ...and we will also discuss the some of hidden anti-patterns
