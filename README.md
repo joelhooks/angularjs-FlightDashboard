@@ -279,4 +279,4 @@ But even these complicated chains are easy to manage with the techniques that I 
 And if this somewhat trivial example does  not convince you... check out a real-world refactor of the Dash.js class [DownloadRules.js](https://gist.github.com/ThomasBurleson/7576083). The link jumps the use to a Gist thread with source. Readers can see how complex code and logic can be reduced and flattened into something very manageable and conceptually understandable.
 
 >
-You will have to decide whether you want to nest or flatten your promise chains. Just note that all of these approaches are simply chaining functions that either request more asynchronous activity or `handle` their async responses.
+You will have to decide whether you want to nest or flatten your promise chains. Just note that all of these approaches are simply chaining of functions that either request more asynchronous activity or `handle` their async responses.
