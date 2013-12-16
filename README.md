@@ -152,7 +152,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 >
 So now we have flattened the chain!
 
-What else can we do? Notice that if we consider the async *request/response* as a self-contained process, then we can simplify this even further:
+What else can we do? Notice that if we consider the async **request-response** pairs as a self-contained process, then we can simplify our code even further:
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService, $log )
