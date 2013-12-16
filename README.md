@@ -102,7 +102,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
     };
 ```
 
-The solution above used deep-nesting to create a sequential, cascading chain of three (3) asynchronous requests; requests to load the user's last flight, current flight, and weather forecast. 
+The above implementation uses deep-nesting to create a sequential, cascading chain of three (3) asynchronous requests; requests to load the user's last flight, current flight, and weather forecast. 
 
 ---
 
