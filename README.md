@@ -149,6 +149,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 	};
 ```
 
+The important change here is to notice that the reponse handler **returns** a Promise. See how the handler for `getFlightDetails()` returns a promise for `getPlaneDetails()`... which [in turn] returns a promise for `getForecast()` ?
 >
 So now we have flattened the chain!
 
