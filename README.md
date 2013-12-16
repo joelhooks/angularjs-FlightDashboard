@@ -108,7 +108,10 @@ The above implementation uses deep-nesting to create a sequential, cascading cha
 
 ### Flattened Promise Chains
 
-While this works, deep nesting can quickly become difficult to manage if each level has non-trivial logic. Promise chain nesting also requires care to manage errors with the chains (the above example does NOT handle errors).
+While this works, deep nesting can quickly become difficult to manage if each level has non-trivial logic. Promise chain nesting also requires developers to careful consider how they will manage errors within the chain segments.
+
+>
+Note that the code show above does NOT handle errors.
 
 I personally consider deep nesting to be an **anti-pattern**. 
 
