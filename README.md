@@ -113,16 +113,14 @@ While this works, deep nesting can quickly become difficult to manage if each le
 >
 Note that the code show above does NOT handle errors.
 
-I personally consider deep nesting to be an **anti-pattern**. 
-
-Fortunately we can restructure the code for errors, clarity, and maintenance. Here we leverage the fact that a promise handler can return:
+I personally consider deep nesting to be an **anti-pattern**. Fortunately we can restructure the code for errors, clarity, and maintenance. Here we leverage the fact that a promise handler can return:
 
 *  A value - that will be delivered to subsequent resolve handlers
 *  A **promise** - that will create a branch queue of async activity
 *  A exception - to reject sebsequent promise activity
 *  A rejected promise - to propogate rejections to subsequent handlers
 
-Since promise handlers can **return Promises**, let's use that we a refactor approach:
+Since promise handlers can **return Promises**, let's use that technique to refactor a new implementation:
 
 ```javascript
 var FlightDashboard = function( $scope, user, flightService, weatherService )
