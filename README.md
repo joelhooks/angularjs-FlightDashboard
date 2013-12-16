@@ -149,9 +149,16 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 	};
 ```
 
-The important change here is to notice that the reponse handler **returns** a Promise. See how the handler for `getFlightDetails()` returns a promise for `getPlaneDetails()`... which [in turn] returns a promise for `getForecast()` ?
+The important change here is to notice that the reponse handler **returns** a Promise. See how the handler for `getFlightDetails()` returns a promise for `getPlaneDetails()`? And the success handler for `getPlaneDetails()` which returns a promise for `getForecast()` ? 
+
 >
-So now we have flattened the chain!
+Remember that success handlers can return (1) the response value, (2) throw an exception, or (3) return a **Promise**
+
+This is a good example of a flattened **promise chain** approach.
+
+---
+
+### Better Refactors
 
 What else can we do? Notice that if we consider the async **request-response** pairs as a self-contained process, then we can simplify our code even further:
 
