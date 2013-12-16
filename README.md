@@ -152,7 +152,7 @@ var FlightDashboard = function( $scope, user, flightService, weatherService )
 The important change here is to notice that the reponse handler **returns** a Promise. See how the handler for `getFlightDetails()` returns a promise for `getPlaneDetails()`? And the success handler for `getPlaneDetails()` which returns a promise for `getForecast()` ? 
 
 >
-Remember that success handlers can return (1) the response value, (2) throw an exception, or (3) return a **Promise**
+Remember that success handlers can either (a) return the response value, (b) throw an exception, or (c) return a **Promise**
 
 This is a good example of a flattened **promise chain** approach.
 
