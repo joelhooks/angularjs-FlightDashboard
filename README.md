@@ -218,7 +218,8 @@ var FlightDashboard = function( $scope, user, flightService, weatherService, $lo
 This is better; each segment of the *chain* is now a self-contained, named function. 
 
 >
-This solution has one (1) funky **hack**: In this approach, `loadWeatherForecast()` could accept a `plane` argument... but does not have direct access to the `flight` reference. Notice how the weather service had to use `$scope.flight.departure` within its `getForecast()` call. 
+An anti-pattern issue still exists here. This solution has that one (1) funky **hack**:  Notice how the weather service had to use `$scope.flight.departure` within its `getForecast()` call. `loadWeatherForecast()` accepts a `plane` argument... but does not have direct access to the `flight` reference. 
+
 
 ---
 
