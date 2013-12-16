@@ -211,7 +211,7 @@ This solution has one (1) funky hack: In this approach, `loadWeatherForecast()` 
 
 ### Finally 
 
-Finally, we should consider the dependencies of each segment of the *chain*. Once we realize that not all of our requests have to be sequential and wait for all previous segments to finish first. In our scenario, the Plane  and Weather service calls could be requested in parallel (independent of each other). 
+Finally, we should consider the dependencies of each segment of the *chain*. Notice that not all of our requests have to be sequential [and thus wait for all previous segments to finish first]. In our scenario, the Plane and Weather service calls could be requested in parallel [independent of each other]. 
 
 We will use the `$q.all()` and the `$q.spread()` methods to condense our code and centralize all `$scope` changes. 
 
