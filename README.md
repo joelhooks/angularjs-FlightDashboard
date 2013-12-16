@@ -111,7 +111,7 @@ The above implementation uses deep-nesting to create a sequential, cascading cha
 While this works, deep nesting can quickly become difficult to manage if each level has non-trivial logic. Promise chain nesting also requires developers to careful consider how they will manage errors within the chain segments.
 
 >
-Note that the code show above does NOT handle errors.
+Note that the code shown above does NOT handle errors. And any nested rejections will not be propogated properly.
 
 I personally consider deep nesting to be an **anti-pattern**. Fortunately we can restructure the code for errors, clarity, and maintenance. Here we leverage the fact that a promise handler can return:
 
