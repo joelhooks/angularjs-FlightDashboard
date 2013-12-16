@@ -18,13 +18,7 @@ Let's explore the hidden power in chain promises.
 
 ### The FlightDashboard
 
-Consider the Flight Service shown which loads information about the last flight viewed during a previous application session
-
-
-![Flight-Chain](https://f.cloud.github.com/assets/210413/1750918/99369b2c-65be-11e3-8a96-c7cf8119a306.jpg)
-
-
-Here we simulate a remote web service by returning a JSON data file... but the request is still asynchronous and the request generates **a promise to respond** when the information is loaded.
+Consider the Flight Service shown which loads information about the user's upcoming flight. Below our *service* shows how a a remote web service by returns a JSON data file... Remember that data calls are asynchronous and our FlightService request generates **a promise to respond** when the information is loaded.
 
 ```javascript
 
@@ -71,6 +65,9 @@ Okay this is nice... but nothing shockingly new is shown here. So let's add some
 Now let's assume that once we have flight details, then we will also want to check the weather forecast and the flight status. 
 
 The scenario here is a cascaded 3-call sequence:  `getFlightDetails()` -> `getPlaneDetails()` -> `getForecast()`
+
+![Flight-Chain](https://f.cloud.github.com/assets/210413/1750918/99369b2c-65be-11e3-8a96-c7cf8119a306.jpg)
+
 
 ```javascript
 
