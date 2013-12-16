@@ -156,6 +156,11 @@ Remember that success handlers can either (a) return the response value, (b) thr
 
 This is a good example of a flattened **promise chain** approach.
 
+>
+This is also an anti-pattern example... for several reasons:
+*  we modified a $scope variable at each level; instead of a single-pass modification of all three (3) $scope variables.
+*  `getForecast()` call references `$scope.flight.departure` instead of an *argument-passed reference*.
+
 ---
 
 ### Better Refactors
