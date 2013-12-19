@@ -23,81 +23,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dashboard_4.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Dashboard_4.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="58" selection-start="796" selection-end="796" vertical-scroll-proportion="0.33740288" vertical-offset="0" max-vertical-offset="1794">
+            <state line="17" column="80" selection-start="490" selection-end="490" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1417">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/demo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dashboard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="64" selection-start="268" selection-end="268" vertical-scroll-proportion="0.11147541" vertical-offset="0" max-vertical-offset="1086">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/angular.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1460" column="12" selection-start="47300" selection-end="47300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345867">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flightServices.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flightServices.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="30" selection-start="16" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="$QDecorator.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/$QDecorator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="27" selection-start="269" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1528">
               <folding>
-                <element signature="e#38#69#0" expanded="false" />
+                <marker date="1387411859000" expanded="true" signature="347:709" placeholder="[...]" />
+                <marker date="1387411859000" expanded="true" signature="388:703" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard_5.1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dashboard_5.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="34" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1756">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard_5.2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dashboard_5.2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1775">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightDemo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlightDemo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="431" selection-end="431" vertical-scroll-proportion="-8.785714" vertical-offset="39" max-vertical-offset="1614">
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightServices.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FlightServices.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="30" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2288">
-              <folding>
-                <element signature="e#84#330#0" expanded="false" />
-                <element signature="e#154#319#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard_2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dashboard_2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1642">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard_3.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dashboard_3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="49" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1946">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dashboard_1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dashboard_1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="42" selection-start="353" selection-end="353" vertical-scroll-proportion="-104.5" vertical-offset="0" max-vertical-offset="1260">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -112,30 +90,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/FlightDemo_2.html" />
-        <option value="$PROJECT_DIR$/FlightDemo_3.html" />
-        <option value="$PROJECT_DIR$/src/MyFlightApp_2.js" />
         <option value="$PROJECT_DIR$/src/MyFlightApp_3.js" />
         <option value="$PROJECT_DIR$/FlightDemo_1.html" />
         <option value="$PROJECT_DIR$/lib/Q.js" />
-        <option value="$PROJECT_DIR$/lib/$QDecorator.js" />
-        <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/src/Dashboard_5.1.js" />
         <option value="$PROJECT_DIR$/src/Dashboard_5.2.js" />
-        <option value="$PROJECT_DIR$/src/FlightServices.js" />
         <option value="$PROJECT_DIR$/src/Dashboard_1.js" />
         <option value="$PROJECT_DIR$/src/Dashboard_2.js" />
         <option value="$PROJECT_DIR$/src/Dashboard_3.js" />
-        <option value="$PROJECT_DIR$/FlightDemo.html" />
         <option value="$PROJECT_DIR$/src/Dashboard_4.js" />
+        <option value="$PROJECT_DIR$/src/FlightServices.js" />
+        <option value="$PROJECT_DIR$/lib/$QDecorator.js" />
+        <option value="$PROJECT_DIR$/src/dasboard.js" />
+        <option value="$PROJECT_DIR$/FlightDemo.html" />
+        <option value="$PROJECT_DIR$/css/demo.css" />
+        <option value="$PROJECT_DIR$/src/flightServices.js" />
+        <option value="$PROJECT_DIR$/src/dashboard.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2560" />
-    <option name="y" value="210" />
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="419" />
+    <option name="y" value="156" />
+    <option name="width" value="2013" />
+    <option name="height" value="1183" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -219,7 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-PromiseChaining" />
+              <option name="myItemId" value="angularjs-FlightDashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,7 +207,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-PromiseChaining" />
+              <option name="myItemId" value="angularjs-FlightDashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -243,11 +221,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-PromiseChaining" />
+              <option name="myItemId" value="angularjs-FlightDashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-PromiseChaining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-FlightDashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,20 +251,23 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="a41faadd-e8f2-40c9-8688-e27f5d911f77">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="0f1a1ebe-f8c1-441b-a247-8ee5177c1eac">
+        <serverdata />
+      </server>
+      <server id="3562122c-12af-4c46-bab9-7daf8b17a4f1">
+        <serverdata />
+      </server>
+      <server id="460d0e60-4e41-4751-8276-7ebbba84fb5a">
+        <serverdata />
       </server>
     </servers>
   </component>
@@ -283,9 +278,28 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
+  <component name="RunManager" selected="JavaScript Debug.FlightDemo.html">
+    <configuration default="false" name="FlightDemo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/angularjs-PromiseChaining/FlightDemo.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -295,6 +309,10 @@
       <setting name="preferredDebugBrowser" value="CHROME" />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -302,7 +320,14 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FlightDemo.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.FlightDemo.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -331,17 +356,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2560" y="210" width="1680" height="1050" extended-state="0" />
+    <frame x="419" y="156" width="2013" height="1183" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18538648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18492462" sideWeight="0.60018814" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39981186" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -350,6 +373,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -371,9 +396,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24990146" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -390,124 +415,60 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_5.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="19" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_5.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlightDemo.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="12" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="555">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1617">
+        <state line="12" column="30" selection-start="667" selection-end="667" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="1617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/$QDecorator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="269" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1528">
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1387411859000" expanded="true" signature="347:709" placeholder="[...]" />
+            <marker date="1387411859000" expanded="true" signature="388:703" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="80" selection-start="490" selection-end="490" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="1417">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flightServices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="16" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10917" column="37" selection-start="450417" selection-end="450417" vertical-scroll-proportion="-0.22984837" vertical-offset="164043" max-vertical-offset="305903">
+        <state line="1460" column="12" selection-start="47300" selection-end="47300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345867">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/$QDecorator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="721" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2406" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="99" selection-end="99" vertical-scroll-proportion="0.059241705" vertical-offset="0" max-vertical-offset="1341">
+        <state line="9" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1205">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_5.1.js">
+    <entry file="file://$PROJECT_DIR$/src/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="34" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1756">
+        <state line="4" column="64" selection-start="268" selection-end="268" vertical-scroll-proportion="0.11147541" vertical-offset="0" max-vertical-offset="1086">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_5.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FlightServices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="30" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2288">
-          <folding>
-            <element signature="e#84#330#0" expanded="false" />
-            <element signature="e#154#319#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="353" selection-end="353" vertical-scroll-proportion="-104.5" vertical-offset="0" max-vertical-offset="1260">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1642">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="49" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlightDemo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="431" selection-end="431" vertical-scroll-proportion="-8.785714" vertical-offset="39" max-vertical-offset="1614">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dashboard_4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="796" selection-end="796" vertical-scroll-proportion="0.33740288" vertical-offset="0" max-vertical-offset="1794">
-          <folding>
-            <element signature="e#38#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
